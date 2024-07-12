@@ -1,0 +1,164 @@
+.main-map-div{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-inline: 57px;
+    overflow: hidden;
+    border-radius: 50px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(270deg, #C9FFCC 17.22%, rgba(225, 255, 227, 0.33) 100%);
+}
+
+.show-map-active{
+    width: 100%;
+    height: 100%;
+
+    justify-content: flex-start;
+
+    padding-left: 10%;
+}
+
+.main-map-div
+.map-div{
+    position: absolute;
+    height: calc(100% - 64px);
+    aspect-ratio: 1.2/1;
+    top: 32px;
+    right: 32px;
+    z-index: 0;
+
+    border-radius: 40px;
+    overflow: hidden;
+    border: 0.5px solid #F95426;
+}
+
+.main-map-div
+.map-background{
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0; */
+
+    width: 105%;
+    height: 105%;
+}
+
+.show-map-active
+.map-background{
+    width: 100%;
+}
+
+
+.main-map-div
+.main-location-enter-div{
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+
+    max-width: 450px;
+}
+
+.main-map-div
+.enter-location-div{
+    margin-bottom: 50px;
+    border-radius: 14px;
+    background: #FFF;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding-top: 16px;
+    padding-inline: 13px;
+    padding-bottom: 24px;
+
+    box-shadow: 0px 4px 8.9px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25.899999618530273px);
+}
+
+.main-map-div
+.enter-location-div
+.heading{
+    margin-bottom: 10px;
+    color: #424242;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 97px;
+
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-map-div
+.enter-location-div
+.location-main-div{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 10px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 42px;
+}
+
+.main-map-div
+.enter-location-div
+.location-main-div
+.red-pin{
+    color: #F95426;
+
+    font-size: 24px;
+}
+
+.main-map-div
+.enter-location-div
+.location-main-div
+.green-pin{
+    color: #29C82A;
+
+    font-size: 24px;
+}
+
+.main-map-div
+.enter-location-div
+.location-main-div
+.text-div{
+    width: 100%;
+    text-align: left;
+}
+
+.main-map-div
+.enter-location-div
+.location-main-div
+.text-div
+.location-input{
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    background: #E6FFE8;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #7D7D7D;
+}
+
+.main-map-div
+.enter-location-div
+.location-main-div
+.text-div
+.location-input:focus{
+    outline: none;
+
+    color: #00C50A;
+}

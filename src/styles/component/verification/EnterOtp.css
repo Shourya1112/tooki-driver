@@ -1,0 +1,93 @@
+.enter-otp-main-div{
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter-otp-main-div
+.page-title{
+    margin-bottom: 20px;
+    color: #525252;
+    text-align: center;
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 65.714% */
+    letter-spacing: 0.5px;
+}
+
+.enter-otp-main-div
+.page-note{
+    margin-bottom: 30px;
+    color: #838383;
+    text-align: center;
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 135.294% */
+}
+
+.enter-otp-main-div
+.input-container{
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 20px;
+
+    border-radius: 5px;
+}
+
+.enter-otp-main-div
+.resend-note{
+    color: #838383;
+    text-align: center;
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 135.294% */
+}
+
+.enter-otp-main-div
+.resend-note
+span{
+    color: #FA4E24;
+    cursor: pointer;
+}
+
+.enter-otp-main-div
+.time-counter{
+    margin-bottom: 22px;
+    color: #FA4E24;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 153.333% */
+}
+
+.enter-otp-main-div
+.terms-note{
+    margin-top: 26px;
+    color: #838383;
+    text-align: center;
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 135.294% */
+}
+
+.enter-otp-main-div
+.terms-note
+span{
+    color: #F95326;
+    cursor: pointer;
+}

@@ -1,0 +1,140 @@
+.main-sub-total-div{
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-inline: 57px;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+
+    padding-left: 10%;
+    
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: linear-gradient(270deg, #C9FFCC 17.22%, rgba(225, 255, 227, 0.33) 100%);
+}
+
+.show-map-active{
+    width: 100%;
+    height: 100%;
+
+    justify-content: flex-start;
+
+    padding-left: 10%;
+}
+
+.main-sub-total-div
+.map-div{
+    position: absolute;
+    height: calc(100% - 64px);
+    aspect-ratio: 1.2/1;
+    top: 32px;
+    right: 32px;
+    z-index: 0;
+
+    border-radius: 40px;
+    overflow: hidden;
+    border: 0.5px solid #F95426;
+}
+
+.main-sub-total-div
+.map-background{
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0; */
+
+    width: 105%;
+    height: 105%;
+}
+
+.show-map-active
+.map-background{
+    width: 100%;
+}
+
+
+.main-sub-total-div
+.main-location-enter-div{
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+
+    max-width: 450px;
+}
+
+.main-sub-total-div
+.enter-location-div{
+    margin-bottom: 50px;
+    border-radius: 14px;
+    background: #FFF;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding-top: 16px;
+    padding-inline: 13px;
+    padding-bottom: 24px;
+
+    box-shadow: 0px 4px 8.9px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25.899999618530273px);
+}
+
+.main-sub-total-div
+.enter-location-div
+.heading{
+    margin-bottom: 10px;
+    color: #424242;
+    font-size: 1.6rem;
+    text-align: left;
+
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-sub-total-div
+.enter-location-div
+.quotation-div{
+    width: 100%;
+    background-color: #E6FFE8;
+    border: 1px solid #28C928;
+
+    box-sizing: border-box;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.main-sub-total-div
+.enter-location-div
+.quotation-div
+.icon-div{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.main-sub-total-div
+.enter-location-div
+.quotation-div
+.parcel-info-div{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-sub-total-div
+.enter-location-div
+.mode-of-pay{
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-inline: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}

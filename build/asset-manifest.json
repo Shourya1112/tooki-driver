@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d4e4346.css",
+    "main.js": "/static/js/main.3970568b.js",
+    "static/media/map-bg.png": "/static/media/map-bg.b7fd382c84324c942fb7.png",
+    "static/media/image-1.png": "/static/media/image-1.cfc83260455e4a6b7956.png",
+    "static/media/tookiLogo.png": "/static/media/tookiLogo.d3092ac0dde994123d4e.png",
+    "static/media/fakeMap.png": "/static/media/fakeMap.f7a4943800f887b1e18f.png",
+    "static/media/image-input.png": "/static/media/image-input.4891d111dc520bdab894.png",
+    "index.html": "/index.html",
+    "main.6d4e4346.css.map": "/static/css/main.6d4e4346.css.map",
+    "main.3970568b.js.map": "/static/js/main.3970568b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d4e4346.css",
+    "static/js/main.3970568b.js"
+  ]
+}

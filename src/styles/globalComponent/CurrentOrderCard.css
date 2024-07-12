@@ -1,0 +1,124 @@
+.current-order-card-div{
+    width: 100%;
+    height: fit-content;
+
+    box-sizing: border-box;
+    padding: 10px 15px;
+
+    border-radius: 20px;
+
+    -webkit-box-shadow: 0px 10px 27px -11px rgba(40,201,40,1);
+    -moz-box-shadow: 0px 10px 27px -11px rgba(40,201,40,1);
+    box-shadow: 0px 10px 27px -11px rgba(40,201,40,1);
+}
+
+.current-order-card-div
+.status-tag{
+    font-size: 27.49px;
+    font-weight: 500;
+    line-height: 35.13px;
+    text-align: left;
+
+    color: #989898;
+}
+
+.current-order-card-div
+.customer-profile-div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    border-bottom: 1.53px solid #D0D0D0;
+}
+
+.current-order-card-div
+.customer-profile-div
+.customer-info{
+    width: 80%;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.current-order-card-div
+.customer-profile-div
+.customer-info
+.customer-name{
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 27.49px;
+    font-weight: 700;
+    line-height: 35.13px;
+    text-align: left;
+
+    color: #2B2B2B;
+}
+
+.current-order-card-div
+.customer-profile-div
+.customer-info
+.customer-other-row{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.current-order-card-div
+.customer-profile-div
+.customer-info
+.customer-other-row
+p{
+    font-size: 15.27px;
+    font-weight: 300;
+    line-height: 35.13px;
+    text-align: left;
+
+    color: #757575;
+}
+
+.current-order-card-div
+.actions-div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.current-order-card-div
+.actions-div
+.main-action{
+    cursor: pointer;
+    font-size: 25px;
+    color: #28C928;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.current-order-card-div
+.actions-div
+.main-action
+span{
+    font-size: 18.33px;
+    font-weight: 300;
+    line-height: 35.13px;
+    text-align: left;
+
+    color: #595959;
+
+    text-transform: capitalize;
+}

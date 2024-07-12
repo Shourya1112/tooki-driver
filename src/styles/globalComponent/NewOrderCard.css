@@ -1,0 +1,85 @@
+.main-info-container{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+
+    background-color: #fff;
+    z-index: 9;
+    border-radius: 1rem;
+
+    -webkit-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.75);
+}
+
+.main-info-container
+.pickup-loc-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.main-info-container
+.pickup-loc-div
+.pickup-loc-label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.main-info-container
+.pickup-loc-div
+.pickup-loc{
+    font-size: 1rem;
+
+    text-transform: capitalize;
+}
+
+.main-info-container
+.options-div{
+    width: 100%;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-info-container
+.options-div
+.option-button{
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: 1.5rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.main-info-container
+.options-div
+.option-button
+.card-option-icon{
+    font-size: 1.6rem;
+    color: #28C928;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-info-container
+.options-div
+.option-button
+.card-option-text{
+    font-size: 1rem;
+    color: #050505;
+
+    opacity: 0.5;
+}
