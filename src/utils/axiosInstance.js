@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = 'http://tookibackend-env.eba-sm9vpkvm.ap-south-1.elasticbeanstalk.com'
+const baseURL = 'https://render-1-75jn.onrender.com'
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
